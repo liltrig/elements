@@ -1,18 +1,72 @@
+/* Elements */
 
-.square{
+body {
+	background-color: #ffed53;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
 
-  background-color: blue;
-  height: 5em;
-  witdh: 2em;
+.circle {
+	width: 15em;
+	height: 15em;
+	background-color: #92f2fe;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	z-index: 1;
+	transform: translate(150px, 10px);
+}
+
+.line {
+	height: 50px;
+	    width: 100%;
+	    background-color: #ff77f7;
+	    transform: rotate(45deg) translate(400px, 0px);
+	    position: absolute;
+}
+
+.line-2 {
+	transform: rotate(5deg);
+	position: absolute;
+	top: 5em;
+}
+
+.square {
+	width: 200px;
+	height: 600px;
+	transform: rotate(35deg) translate(250px, -50px);
+	background-color: black;
+	position: absolute;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 30px;
+}
+
+.circle-2{
+	height: 30em;
+	    width: 30em;
+	    radius: 50%;
+	    z-index: 1;
+	    position: absolute;
+	    transform: translate(550px, -90px);
+	    background-color: deeppink;
+}
+
+.cross{
+	height: 20em;
+	    width: 2em;
+	    transform: rotate(45deg);
+	    position: absolute;
+	    background-color: white;
+	    padding: 10px;
 
 }
 
-
-
-
-.line{
-
-  width: 500px;
-  border-top: 2px solid pink;
-
+.cross-2{
+	transform: rotate(-45deg);
+	position: absolute;
 }
